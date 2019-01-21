@@ -1,0 +1,106 @@
+﻿2018/11/28 11:16:00 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\rtk\rtk.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\rtk.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\brinv.cpp ..\src\brmul.cpp ..\src\calc_direction.cpp ..\src\calc_iono_model.cpp ..\src\calc_pos.cpp ..\src\calc_pos2.cpp ..\src\calc_rtk_GQB_F9P.cpp ..\src\calc_rtk_GQE.cpp ..\src\calc_rtk_GQEB.cpp ..\src\calc_rtk_GQEB_F9P.cpp ..\src\calc_rtk_GQER.cpp ..\src\calc_rtk_GQE_F9P.cpp ..\src\calc_rtk_GQ_F9P.cpp ..\src\calc_satpos.cpp ..\src\calc_tropo.cpp ..\src\choose_sat.cpp ..\src\file_close.cpp ..\src\least_square.cpp ..\src\main.cpp ..\src\matinv.cpp ..\src\minv.cpp ..\src\newton.cpp ..\src\read_data.cpp ..\src\read_rinex_nav.cpp ..\src\read_rinex_obs302.cpp ..\src\check_cn.cpp ..\src\rinex_time.cpp ..\src\set_initial_value.cpp ..\src\trans_coordinate.cpp ..\src\trans_xyz_llh.cpp ..\src\w_inv.cpp ..\src\w_inverse_float2.cpp
+         w_inverse_float2.cpp
+         w_inv.cpp
+         trans_xyz_llh.cpp
+         trans_coordinate.cpp
+         set_initial_value.cpp
+     1>c:\users\nobu\2018\共同研究\cq\ubx_cq_f9p\src\set_initial_value.cpp(18): warning C4101: 'error' : ローカル変数は 1 度も使われていません。
+         rinex_time.cpp
+         check_cn.cpp
+         read_rinex_obs302.cpp
+         read_rinex_nav.cpp
+         read_data.cpp
+         newton.cpp
+         minv.cpp
+         matinv.cpp
+         main.cpp
+         least_square.cpp
+         file_close.cpp
+         choose_sat.cpp
+         calc_tropo.cpp
+         calc_satpos.cpp
+         calc_rtk_GQ_F9P.cpp
+         コードを生成中...
+         コンパイル中...
+         calc_rtk_GQE_F9P.cpp
+         calc_rtk_GQER.cpp
+         calc_rtk_GQEB_F9P.cpp
+         calc_rtk_GQEB.cpp
+         calc_rtk_GQE.cpp
+         calc_rtk_GQB_F9P.cpp
+         calc_pos2.cpp
+         calc_pos.cpp
+         calc_iono_model.cpp
+         calc_direction.cpp
+         brmul.cpp
+         brinv.cpp
+         コードを生成中...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\lambda.c ..\src\rtkcmn.c
+         rtkcmn.c
+     1>c:\users\nobu\2018\共同研究\cq\ubx_cq_f9p\src\rtkcmn.c(439): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' の宣言を確認してください。
+     1>c:\users\nobu\2018\共同研究\cq\ubx_cq_f9p\src\rtkcmn.c(454): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' の宣言を確認してください。
+     1>c:\users\nobu\2018\共同研究\cq\ubx_cq_f9p\src\rtkcmn.c(482): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : 'localtime' の宣言を確認してください。
+     1>c:\users\nobu\2018\共同研究\cq\ubx_cq_f9p\src\rtkcmn.c(574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         lambda.c
+         コードを生成中...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\rtk.exe.embed.manifest.res" Debug\rtk_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\Debug\rtk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rtk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\Debug\rtk.pdb" /SUBSYSTEM:CONSOLE /STACK:"100000000","100000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\Debug\rtk.lib" /MACHINE:X86 Debug\rtk.exe.embed.manifest.res
+         Debug\brinv.obj
+         Debug\brmul.obj
+         Debug\calc_direction.obj
+         Debug\calc_iono_model.obj
+         Debug\calc_pos.obj
+         Debug\calc_pos2.obj
+         Debug\calc_rtk_GQB_F9P.obj
+         Debug\calc_rtk_GQE.obj
+         Debug\calc_rtk_GQEB.obj
+         Debug\calc_rtk_GQEB_F9P.obj
+         Debug\calc_rtk_GQER.obj
+         Debug\calc_rtk_GQE_F9P.obj
+         Debug\calc_rtk_GQ_F9P.obj
+         Debug\calc_satpos.obj
+         Debug\calc_tropo.obj
+         Debug\choose_sat.obj
+         Debug\file_close.obj
+         Debug\lambda.obj
+         Debug\least_square.obj
+         Debug\main.obj
+         Debug\matinv.obj
+         Debug\minv.obj
+         Debug\newton.obj
+         Debug\read_data.obj
+         Debug\read_rinex_nav.obj
+         Debug\read_rinex_obs302.obj
+         Debug\check_cn.obj
+         Debug\rinex_time.obj
+         Debug\rtkcmn.obj
+         Debug\set_initial_value.obj
+         Debug\trans_coordinate.obj
+         Debug\trans_xyz_llh.obj
+         Debug\w_inv.obj
+         Debug\w_inverse_float2.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\rtk.exe.embed.manifest" /manifest Debug\rtk.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         rtk.vcxproj -> C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\Debug\rtk.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\rtk.unsuccessfulbuild" を削除しています。
+         "Debug\rtk.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\nobu\2018\共同研究\CQ\ubx_cq_F9P\rtk\rtk.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.90

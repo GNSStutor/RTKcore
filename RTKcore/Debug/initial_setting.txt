@@ -1,0 +1,27 @@
+Mask_angle    15.0
+Rov_obs       rov.obs
+Ref_obs       ref.obs
+Nav_file      ref.nav
+POSreflat     35.66633465
+POSreflon     139.792200998
+POSrefhgt     59.7274
+Code_noise    0.5
+Carrier_noise 0.003
+Iteration     18000
+Threshold_cn  32.0
+RTK_DGNSS     1
+Ratio_limit   3.0
+GPS           1
+QZSS          1
+GALILEO       0
+BEIDOU        0
+GLONASS       1
+
+
+
+POSreflat     35.66633461
+POSreflon     139.7922008
+POSrefhgt     59.741
+POSreflat     35.66634223
+POSreflon     139.79221009
+POSrefhgt     59.735
